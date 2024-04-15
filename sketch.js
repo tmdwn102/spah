@@ -26,7 +26,7 @@ function draw() {
     if (!isOverlap) {
       fill(255, 0, 0); 
       stroke(255); 
-      strokeWeight(2); 
+      strokeWeight(5); 
       rect(newRect.x, newRect.y, newRect.w, newRect.h); // 사각형 그리기
       rects.push(newRect); // 배열에 사각형 정보 추가
       break; // 반복문 종료
