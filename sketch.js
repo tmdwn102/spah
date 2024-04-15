@@ -24,9 +24,9 @@ function draw() {
     
     // 충돌이 없을 때 새로운 사각형을 그리고 배열에 추가합니다.
     if (!isOverlap) {
-      fill(255, 0, 0); // 색상을 검정색으로 설정
-      stroke(255); // 스트로크 색상을 흰색으로 설정
-      strokeWeight(1); // 스트로크 두께를 1로 설정
+      fill(255, 0, 0); 
+      stroke(255); 
+      strokeWeight(2); 
       rect(newRect.x, newRect.y, newRect.w, newRect.h); // 사각형 그리기
       rects.push(newRect); // 배열에 사각형 정보 추가
       break; // 반복문 종료
